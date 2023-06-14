@@ -2,8 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-	body {
-		@apply bg-slate-100;
-	}
+body {
+	@apply bg-slate-100;
+}
+
+.scroll-hidden::-webkit-scrollbar {
+	display: none;
 }
