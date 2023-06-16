@@ -1,7 +1,7 @@
 import { api } from '@/src/lib/axios';
 
 async function getAllPhotos() {
-	const searchParams = '/filter?q=cat';
+	const searchParams = '/filter?q=cats';
 
 	const response = await api.get(searchParams);
 
